@@ -7,7 +7,6 @@ import {Button,TableHead,TableRow,Table,TableCell} from '@material-ui/core';
 import SortPages from "./SortPages"
 import { withStyles } from "@material-ui/styles";
 
-
 class Movie extends Component{
    state={
         movies:getMovies(),
